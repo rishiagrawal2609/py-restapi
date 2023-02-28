@@ -1,0 +1,266 @@
+2023-02-28 11:34:39,621 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 11:34:39,621 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 11:34:39,630 INFO:  * Restarting with stat
+2023-02-28 11:34:40,075 WARNING:  * Debugger is active!
+2023-02-28 11:34:40,098 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 11:34:55,878 INFO: Invalid type for the input
+2023-02-28 11:34:55,879 INFO: 127.0.0.1 - - [28/Feb/2023 11:34:55] "[31m[1mPOST /corestack/employee HTTP/1.1[0m" 400 -
+2023-02-28 11:35:02,646 INFO: Rishi added to database
+2023-02-28 11:35:02,646 INFO: 127.0.0.1 - - [28/Feb/2023 11:35:02] "POST /corestack/employee HTTP/1.1" 200 -
+2023-02-28 11:35:09,905 INFO: Data from DataBase requested
+2023-02-28 11:35:09,905 INFO: 127.0.0.1 - - [28/Feb/2023 11:35:09] "GET /corestack/employee HTTP/1.1" 200 -
+2023-02-28 15:47:16,828 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 15:47:16,829 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 15:47:16,835 INFO:  * Restarting with stat
+2023-02-28 15:47:17,234 WARNING:  * Debugger is active!
+2023-02-28 15:47:17,240 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:49:13,608 INFO: 127.0.0.1 - - [28/Feb/2023 15:49:13] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:50:23,965 INFO:  * Detected change in 'c:\\Users\\Rishi Agrawal\\Documents\\py-restapi\\api.py', reloading
+2023-02-28 15:50:24,080 INFO:  * Restarting with stat
+2023-02-28 15:50:24,584 WARNING:  * Debugger is active!
+2023-02-28 15:50:24,591 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:50:34,316 INFO: 127.0.0.1 - - [28/Feb/2023 15:50:34] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:50:35,560 INFO: 127.0.0.1 - - [28/Feb/2023 15:50:35] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:51:43,213 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 15:51:43,213 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 15:51:43,221 INFO:  * Restarting with stat
+2023-02-28 15:51:43,648 WARNING:  * Debugger is active!
+2023-02-28 15:51:43,656 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:51:49,455 INFO: 127.0.0.1 - - [28/Feb/2023 15:51:49] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:51:50,453 INFO: 127.0.0.1 - - [28/Feb/2023 15:51:50] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:51:58,747 INFO: 127.0.0.1 - - [28/Feb/2023 15:51:58] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:51:59,316 INFO: 127.0.0.1 - - [28/Feb/2023 15:51:59] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:51:59,498 INFO: 127.0.0.1 - - [28/Feb/2023 15:51:59] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:52:00,076 INFO: 127.0.0.1 - - [28/Feb/2023 15:52:00] "[31m[1mGET /corestack/login HTTP/1.1[0m" 405 -
+2023-02-28 15:52:52,483 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 15:52:52,483 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 15:53:18,825 INFO: Data from DataBase requested
+2023-02-28 15:53:18,826 INFO: 127.0.0.1 - - [28/Feb/2023 15:53:18] "GET /corestack/employee HTTP/1.1" 200 -
+2023-02-28 15:53:26,786 ERROR: Exception on /corestack/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Rishi Agrawal\Documents\py-restapi\api.py", line 17, in post
+    uname = auth_vals.get("uname")
+            ^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+2023-02-28 15:53:26,789 INFO: 127.0.0.1 - - [28/Feb/2023 15:53:26] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:53:28,501 ERROR: Exception on /corestack/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Rishi Agrawal\Documents\py-restapi\api.py", line 17, in post
+    uname = auth_vals.get("uname")
+            ^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+2023-02-28 15:53:28,502 INFO: 127.0.0.1 - - [28/Feb/2023 15:53:28] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:53:29,285 ERROR: Exception on /corestack/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Rishi Agrawal\Documents\py-restapi\api.py", line 17, in post
+    uname = auth_vals.get("uname")
+            ^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+2023-02-28 15:53:29,286 INFO: 127.0.0.1 - - [28/Feb/2023 15:53:29] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:53:30,042 ERROR: Exception on /corestack/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Rishi Agrawal\Documents\py-restapi\api.py", line 17, in post
+    uname = auth_vals.get("uname")
+            ^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+2023-02-28 15:53:30,044 INFO: 127.0.0.1 - - [28/Feb/2023 15:53:30] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:53:30,759 ERROR: Exception on /corestack/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishi Agrawal\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Rishi Agrawal\Documents\py-restapi\api.py", line 17, in post
+    uname = auth_vals.get("uname")
+            ^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+2023-02-28 15:53:30,760 INFO: 127.0.0.1 - - [28/Feb/2023 15:53:30] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:53:57,038 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 15:53:57,038 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 15:53:57,042 INFO:  * Restarting with stat
+2023-02-28 15:53:57,464 WARNING:  * Debugger is active!
+2023-02-28 15:53:57,472 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:54:02,060 INFO: 127.0.0.1 - - [28/Feb/2023 15:54:02] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:54:38,673 INFO:  * Detected change in 'c:\\Users\\Rishi Agrawal\\Documents\\py-restapi\\api.py', reloading
+2023-02-28 15:54:38,762 INFO:  * Restarting with stat
+2023-02-28 15:54:39,262 WARNING:  * Debugger is active!
+2023-02-28 15:54:39,272 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:54:45,823 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 15:54:45,823 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 15:54:45,827 INFO:  * Restarting with stat
+2023-02-28 15:54:46,245 WARNING:  * Debugger is active!
+2023-02-28 15:54:46,251 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:54:58,290 DEBUG: Starting new HTTP connection (1): localhost:5000
+2023-02-28 15:55:00,337 INFO: 127.0.0.1 - - [28/Feb/2023 15:55:00] "[33mGET /corestack/employee/ HTTP/1.1[0m" 404 -
+2023-02-28 15:55:00,338 DEBUG: http://localhost:5000 "GET /corestack/employee/ HTTP/1.1" 404 207
+2023-02-28 15:55:00,402 INFO: 127.0.0.1 - - [28/Feb/2023 15:55:00] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:55:50,543 INFO:  * Detected change in 'c:\\Users\\Rishi Agrawal\\Documents\\py-restapi\\api.py', reloading
+2023-02-28 15:55:50,644 INFO:  * Restarting with stat
+2023-02-28 15:55:51,210 WARNING:  * Debugger is active!
+2023-02-28 15:55:51,217 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:55:55,434 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 15:55:55,434 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 15:55:55,438 INFO:  * Restarting with stat
+2023-02-28 15:55:55,837 WARNING:  * Debugger is active!
+2023-02-28 15:55:55,843 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:56:01,000 DEBUG: Starting new HTTP connection (1): localhost:5000
+2023-02-28 15:56:03,045 INFO: 127.0.0.1 - - [28/Feb/2023 15:56:03] "[33mGET /corestack/employee/ HTTP/1.1[0m" 404 -
+2023-02-28 15:56:03,046 DEBUG: http://localhost:5000 "GET /corestack/employee/ HTTP/1.1" 404 207
+2023-02-28 15:56:03,068 INFO: 127.0.0.1 - - [28/Feb/2023 15:56:03] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:56:55,935 INFO: 127.0.0.1 - - [28/Feb/2023 15:56:55] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-02-28 15:57:03,412 DEBUG: Starting new HTTP connection (1): localhost:5000
+2023-02-28 15:57:05,475 INFO: 127.0.0.1 - - [28/Feb/2023 15:57:05] "[33mGET /corestack/employee/ HTTP/1.1[0m" 404 -
+2023-02-28 15:57:05,476 DEBUG: http://localhost:5000 "GET /corestack/employee/ HTTP/1.1" 404 207
+2023-02-28 15:57:05,490 INFO: 127.0.0.1 - - [28/Feb/2023 15:57:05] "[35m[1mPOST /corestack/login HTTP/1.1[0m" 500 -
+2023-02-28 15:57:32,287 INFO:  * Detected change in 'c:\\Users\\Rishi Agrawal\\Documents\\py-restapi\\api.py', reloading
+2023-02-28 15:57:32,366 INFO:  * Restarting with stat
+2023-02-28 15:57:32,898 WARNING:  * Debugger is active!
+2023-02-28 15:57:32,905 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:57:38,734 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 15:57:38,734 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 15:57:38,743 INFO:  * Restarting with stat
+2023-02-28 15:57:39,156 WARNING:  * Debugger is active!
+2023-02-28 15:57:39,163 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:57:46,614 INFO: 127.0.0.1 - - [28/Feb/2023 15:57:46] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 15:57:57,350 INFO: 127.0.0.1 - - [28/Feb/2023 15:57:57] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-02-28 15:59:12,590 INFO:  * Detected change in 'c:\\Users\\Rishi Agrawal\\Documents\\py-restapi\\api.py', reloading
+2023-02-28 15:59:12,661 INFO:  * Restarting with stat
+2023-02-28 15:59:13,078 WARNING:  * Debugger is active!
+2023-02-28 15:59:13,084 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:59:22,949 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 15:59:22,949 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 15:59:22,953 INFO:  * Restarting with stat
+2023-02-28 15:59:23,417 WARNING:  * Debugger is active!
+2023-02-28 15:59:23,423 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 15:59:37,285 INFO: 127.0.0.1 - - [28/Feb/2023 15:59:37] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:08:51,719 INFO: 127.0.0.1 - - [28/Feb/2023 16:08:51] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:08:51,983 INFO: 127.0.0.1 - - [28/Feb/2023 16:08:51] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-02-28 16:09:35,630 INFO: 127.0.0.1 - - [28/Feb/2023 16:09:35] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:09:35,895 INFO: 127.0.0.1 - - [28/Feb/2023 16:09:35] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:11:55,965 INFO:  * Detected change in 'c:\\Users\\Rishi Agrawal\\Documents\\py-restapi\\api.py', reloading
+2023-02-28 16:11:56,031 INFO:  * Restarting with stat
+2023-02-28 16:11:56,555 WARNING:  * Debugger is active!
+2023-02-28 16:11:56,563 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 16:12:01,844 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 16:12:01,844 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 16:12:01,849 INFO:  * Restarting with stat
+2023-02-28 16:12:02,249 WARNING:  * Debugger is active!
+2023-02-28 16:12:02,256 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 16:12:09,247 INFO: 127.0.0.1 - - [28/Feb/2023 16:12:09] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:13:45,759 INFO:  * Detected change in 'c:\\Users\\Rishi Agrawal\\Documents\\py-restapi\\api.py', reloading
+2023-02-28 16:13:45,835 INFO:  * Restarting with stat
+2023-02-28 16:13:46,263 WARNING:  * Debugger is active!
+2023-02-28 16:13:46,269 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 16:18:17,767 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 16:18:17,767 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 16:18:17,771 INFO:  * Restarting with stat
+2023-02-28 16:18:18,191 WARNING:  * Debugger is active!
+2023-02-28 16:18:18,197 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 16:18:47,137 INFO: 127.0.0.1 - - [28/Feb/2023 16:18:47] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:21:35,248 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-28 16:21:35,248 INFO: [33mPress CTRL+C to quit[0m
+2023-02-28 16:21:35,254 INFO:  * Restarting with stat
+2023-02-28 16:21:35,745 WARNING:  * Debugger is active!
+2023-02-28 16:21:35,752 INFO:  * Debugger PIN: 545-254-937
+2023-02-28 16:21:54,080 INFO: 127.0.0.1 - - [28/Feb/2023 16:21:54] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:21:54,344 INFO: Login success
+2023-02-28 16:21:54,345 INFO: 127.0.0.1 - - [28/Feb/2023 16:21:54] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:24:17,392 INFO: Rishi added to database
+2023-02-28 16:24:17,393 INFO: 127.0.0.1 - - [28/Feb/2023 16:24:17] "POST /corestack/employee HTTP/1.1" 200 -
+2023-02-28 16:24:25,287 INFO: yash added to database
+2023-02-28 16:24:25,288 INFO: 127.0.0.1 - - [28/Feb/2023 16:24:25] "POST /corestack/employee HTTP/1.1" 200 -
+2023-02-28 16:24:33,324 INFO: priya added to database
+2023-02-28 16:24:33,325 INFO: 127.0.0.1 - - [28/Feb/2023 16:24:33] "POST /corestack/employee HTTP/1.1" 200 -
+2023-02-28 16:24:40,541 INFO: anurag added to database
+2023-02-28 16:24:40,542 INFO: 127.0.0.1 - - [28/Feb/2023 16:24:40] "POST /corestack/employee HTTP/1.1" 200 -
+2023-02-28 16:24:47,294 INFO: pranav added to database
+2023-02-28 16:24:47,294 INFO: 127.0.0.1 - - [28/Feb/2023 16:24:47] "POST /corestack/employee HTTP/1.1" 200 -
+2023-02-28 16:24:57,151 INFO: 127.0.0.1 - - [28/Feb/2023 16:24:57] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:24:57,400 INFO: Login success
+2023-02-28 16:24:57,401 INFO: 127.0.0.1 - - [28/Feb/2023 16:24:57] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:32:18,476 INFO: Login success
+2023-02-28 16:32:18,477 INFO: 127.0.0.1 - - [28/Feb/2023 16:32:18] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:37:13,791 INFO: 127.0.0.1 - - [28/Feb/2023 16:37:13] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
