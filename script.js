@@ -8,15 +8,11 @@ function submitDetails(){
     // password = document.getElementById("password").innerHTML;
     uname = document.getElementById("uname").value;
     password = document.getElementById("password").value;
-    console.log("uname :",uname);
-    console.log("password :",password);
     var authValues = {
         "uname": this.uname,
         "password": this.password
     }
     var json = JSON.stringify(authValues)
-    console.log(json);
-
  fetch("http://localhost:5000/corestack/login", {
   method: "POST",
   body: json,
@@ -24,9 +20,13 @@ function submitDetails(){
     "Content-type": "application/json; charset=UTF-8"
   }
 })
-.then((response) => response.json())
-.then((json) => console.log(json));
-
+.then((response) => {
+   if (response.status == 200){
+    location.href= "./empdetails.html"
+}else{
+  document.getElementById("loginstatus").innerHTML = "Incorrect Login Details"
+}})
+.then((json) => console.log(json))
 
 
 }

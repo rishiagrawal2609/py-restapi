@@ -264,3 +264,151 @@ AttributeError: 'function' object has no attribute 'get'
 2023-02-28 16:32:18,476 INFO: Login success
 2023-02-28 16:32:18,477 INFO: 127.0.0.1 - - [28/Feb/2023 16:32:18] "POST /corestack/login HTTP/1.1" 200 -
 2023-02-28 16:37:13,791 INFO: 127.0.0.1 - - [28/Feb/2023 16:37:13] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-02-28 16:48:30,695 INFO: 127.0.0.1 - - [28/Feb/2023 16:48:30] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:48:30,959 INFO: Login success
+2023-02-28 16:48:30,959 INFO: 127.0.0.1 - - [28/Feb/2023 16:48:30] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:53:15,656 INFO: 127.0.0.1 - - [28/Feb/2023 16:53:15] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:53:15,906 INFO: Login success
+2023-02-28 16:53:15,907 INFO: 127.0.0.1 - - [28/Feb/2023 16:53:15] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:53:24,711 INFO: 127.0.0.1 - - [28/Feb/2023 16:53:24] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 16:53:25,031 INFO: 127.0.0.1 - - [28/Feb/2023 16:53:25] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-02-28 17:07:11,731 INFO: 127.0.0.1 - - [28/Feb/2023 17:07:11] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 17:07:11,975 INFO: Login success
+2023-02-28 17:07:11,975 INFO: 127.0.0.1 - - [28/Feb/2023 17:07:11] "POST /corestack/login HTTP/1.1" 200 -
+2023-02-28 17:07:19,181 INFO: 127.0.0.1 - - [28/Feb/2023 17:07:19] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-02-28 17:07:19,492 INFO: 127.0.0.1 - - [28/Feb/2023 17:07:19] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 09:57:06,318 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-01 09:57:06,319 INFO: [33mPress CTRL+C to quit[0m
+2023-03-01 09:57:06,324 INFO:  * Restarting with stat
+2023-03-01 09:57:06,760 WARNING:  * Debugger is active!
+2023-03-01 09:57:06,769 INFO:  * Debugger PIN: 545-254-937
+2023-03-01 09:57:30,014 INFO: 127.0.0.1 - - [01/Mar/2023 09:57:30] "[33mGET /corestack/empolyee HTTP/1.1[0m" 404 -
+2023-03-01 09:57:32,879 INFO: 127.0.0.1 - - [01/Mar/2023 09:57:32] "[33mGET /corestack/empolyee HTTP/1.1[0m" 404 -
+2023-03-01 10:02:07,533 INFO: Data from DataBase requested
+2023-03-01 10:02:07,535 INFO: 127.0.0.1 - - [01/Mar/2023 10:02:07] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:03:11,116 INFO: Data from DataBase requested
+2023-03-01 10:03:11,116 INFO: 127.0.0.1 - - [01/Mar/2023 10:03:11] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:04:25,693 INFO: Data from DataBase requested
+2023-03-01 10:04:25,693 INFO: 127.0.0.1 - - [01/Mar/2023 10:04:25] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:05:01,122 INFO: Data from DataBase requested
+2023-03-01 10:05:01,122 INFO: 127.0.0.1 - - [01/Mar/2023 10:05:01] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:05:03,085 INFO: Data from DataBase requested
+2023-03-01 10:05:03,085 INFO: 127.0.0.1 - - [01/Mar/2023 10:05:03] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:05:03,306 INFO: Data from DataBase requested
+2023-03-01 10:05:03,306 INFO: 127.0.0.1 - - [01/Mar/2023 10:05:03] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:05:03,944 INFO: Data from DataBase requested
+2023-03-01 10:05:03,944 INFO: 127.0.0.1 - - [01/Mar/2023 10:05:03] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:05:04,201 INFO: Data from DataBase requested
+2023-03-01 10:05:04,202 INFO: 127.0.0.1 - - [01/Mar/2023 10:05:04] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:08:41,237 INFO: Data from DataBase requested
+2023-03-01 10:08:41,237 INFO: 127.0.0.1 - - [01/Mar/2023 10:08:41] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:09:43,044 INFO: Data from DataBase requested
+2023-03-01 10:09:43,044 INFO: 127.0.0.1 - - [01/Mar/2023 10:09:43] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:10:01,048 INFO: Data from DataBase requested
+2023-03-01 10:10:01,048 INFO: 127.0.0.1 - - [01/Mar/2023 10:10:01] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:10:41,517 INFO: Data from DataBase requested
+2023-03-01 10:10:41,517 INFO: 127.0.0.1 - - [01/Mar/2023 10:10:41] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:10:51,888 INFO: Data from DataBase requested
+2023-03-01 10:10:51,892 INFO: 127.0.0.1 - - [01/Mar/2023 10:10:51] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:11:10,423 INFO: Data from DataBase requested
+2023-03-01 10:11:10,424 INFO: 127.0.0.1 - - [01/Mar/2023 10:11:10] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:12:03,138 INFO: Data from DataBase requested
+2023-03-01 10:12:03,143 INFO: 127.0.0.1 - - [01/Mar/2023 10:12:03] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:12:35,826 INFO: Data from DataBase requested
+2023-03-01 10:12:35,827 INFO: 127.0.0.1 - - [01/Mar/2023 10:12:35] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:20:07,689 INFO: Data from DataBase requested
+2023-03-01 10:20:07,690 INFO: 127.0.0.1 - - [01/Mar/2023 10:20:07] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:22:47,110 INFO: 127.0.0.1 - - [01/Mar/2023 10:22:47] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:22:47,359 INFO: 127.0.0.1 - - [01/Mar/2023 10:22:47] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:22:58,370 INFO: 127.0.0.1 - - [01/Mar/2023 10:22:58] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:22:58,678 INFO: 127.0.0.1 - - [01/Mar/2023 10:22:58] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:23:07,348 INFO: 127.0.0.1 - - [01/Mar/2023 10:23:07] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:23:07,662 INFO: Login success
+2023-03-01 10:23:07,662 INFO: 127.0.0.1 - - [01/Mar/2023 10:23:07] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:33:57,207 INFO: 127.0.0.1 - - [01/Mar/2023 10:33:57] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:33:57,477 INFO: Login success
+2023-03-01 10:33:57,477 INFO: 127.0.0.1 - - [01/Mar/2023 10:33:57] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:34:07,992 INFO: 127.0.0.1 - - [01/Mar/2023 10:34:07] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:34:08,302 INFO: 127.0.0.1 - - [01/Mar/2023 10:34:08] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:37:55,703 INFO: Data from DataBase requested
+2023-03-01 10:37:55,703 INFO: 127.0.0.1 - - [01/Mar/2023 10:37:55] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:38:35,709 INFO: 127.0.0.1 - - [01/Mar/2023 10:38:35] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:38:35,985 INFO: Login success
+2023-03-01 10:38:35,985 INFO: 127.0.0.1 - - [01/Mar/2023 10:38:35] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:40:15,288 INFO: 127.0.0.1 - - [01/Mar/2023 10:40:15] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:40:15,549 INFO: Login success
+2023-03-01 10:40:15,549 INFO: 127.0.0.1 - - [01/Mar/2023 10:40:15] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:40:15,596 INFO: Data from DataBase requested
+2023-03-01 10:40:15,597 INFO: 127.0.0.1 - - [01/Mar/2023 10:40:15] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:40:24,598 INFO: 127.0.0.1 - - [01/Mar/2023 10:40:24] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:40:24,910 INFO: 127.0.0.1 - - [01/Mar/2023 10:40:24] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:40:51,827 INFO: 127.0.0.1 - - [01/Mar/2023 10:40:51] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:40:52,151 INFO: 127.0.0.1 - - [01/Mar/2023 10:40:52] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:41:41,335 INFO: 127.0.0.1 - - [01/Mar/2023 10:41:41] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:41:41,589 INFO: Login success
+2023-03-01 10:41:41,589 INFO: 127.0.0.1 - - [01/Mar/2023 10:41:41] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:41:41,676 INFO: Data from DataBase requested
+2023-03-01 10:41:41,676 INFO: 127.0.0.1 - - [01/Mar/2023 10:41:41] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:41:52,611 INFO: 127.0.0.1 - - [01/Mar/2023 10:41:52] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:41:52,851 INFO: 127.0.0.1 - - [01/Mar/2023 10:41:52] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:41:52,897 INFO: 127.0.0.1 - - [01/Mar/2023 10:41:52] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:41:52,933 INFO: 127.0.0.1 - - [01/Mar/2023 10:41:52] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:43:45,559 INFO: pranav added to database
+2023-03-01 10:43:45,559 INFO: 127.0.0.1 - - [01/Mar/2023 10:43:45] "POST /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:43:52,212 INFO: rishi added to database
+2023-03-01 10:43:52,213 INFO: 127.0.0.1 - - [01/Mar/2023 10:43:52] "POST /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:44:00,409 INFO: yash added to database
+2023-03-01 10:44:00,409 INFO: 127.0.0.1 - - [01/Mar/2023 10:44:00] "POST /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:44:07,242 INFO: priya added to database
+2023-03-01 10:44:07,243 INFO: 127.0.0.1 - - [01/Mar/2023 10:44:07] "POST /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:44:15,330 INFO: reetika added to database
+2023-03-01 10:44:15,330 INFO: 127.0.0.1 - - [01/Mar/2023 10:44:15] "POST /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:44:26,231 INFO: 127.0.0.1 - - [01/Mar/2023 10:44:26] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:44:26,500 INFO: Login success
+2023-03-01 10:44:26,500 INFO: 127.0.0.1 - - [01/Mar/2023 10:44:26] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:44:26,539 INFO: Data from DataBase requested
+2023-03-01 10:44:26,539 INFO: 127.0.0.1 - - [01/Mar/2023 10:44:26] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:47:00,546 INFO: Data from DataBase requested
+2023-03-01 10:47:00,547 INFO: 127.0.0.1 - - [01/Mar/2023 10:47:00] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:47:01,577 INFO: Data from DataBase requested
+2023-03-01 10:47:01,577 INFO: 127.0.0.1 - - [01/Mar/2023 10:47:01] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:47:03,215 INFO: Data from DataBase requested
+2023-03-01 10:47:03,216 INFO: 127.0.0.1 - - [01/Mar/2023 10:47:03] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:48:10,459 INFO: 127.0.0.1 - - [01/Mar/2023 10:48:10] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:48:10,720 INFO: 127.0.0.1 - - [01/Mar/2023 10:48:10] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:48:18,962 INFO: 127.0.0.1 - - [01/Mar/2023 10:48:18] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:48:19,266 INFO: Login success
+2023-03-01 10:48:19,266 INFO: 127.0.0.1 - - [01/Mar/2023 10:48:19] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:48:19,545 INFO: Data from DataBase requested
+2023-03-01 10:48:19,545 INFO: 127.0.0.1 - - [01/Mar/2023 10:48:19] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:50:00,095 INFO: Data from DataBase requested
+2023-03-01 10:50:00,095 INFO: 127.0.0.1 - - [01/Mar/2023 10:50:00] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:51:22,612 INFO: Data from DataBase requested
+2023-03-01 10:51:22,613 INFO: 127.0.0.1 - - [01/Mar/2023 10:51:22] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:51:44,267 INFO: Data from DataBase requested
+2023-03-01 10:51:44,267 INFO: 127.0.0.1 - - [01/Mar/2023 10:51:44] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:52:36,388 INFO: Data from DataBase requested
+2023-03-01 10:52:36,388 INFO: 127.0.0.1 - - [01/Mar/2023 10:52:36] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:54:07,710 INFO: keerthana added to database
+2023-03-01 10:54:07,710 INFO: 127.0.0.1 - - [01/Mar/2023 10:54:07] "POST /corestack/employee HTTP/1.1" 200 -
+2023-03-01 10:55:07,942 INFO: 127.0.0.1 - - [01/Mar/2023 10:55:07] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:55:08,196 INFO: 127.0.0.1 - - [01/Mar/2023 10:55:08] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 10:55:15,311 INFO: 127.0.0.1 - - [01/Mar/2023 10:55:15] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:55:15,627 INFO: Login success
+2023-03-01 10:55:15,627 INFO: 127.0.0.1 - - [01/Mar/2023 10:55:15] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 10:55:15,884 INFO: Data from DataBase requested
+2023-03-01 10:55:15,884 INFO: 127.0.0.1 - - [01/Mar/2023 10:55:15] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 11:01:52,770 INFO: 127.0.0.1 - - [01/Mar/2023 11:01:52] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 11:01:53,040 INFO: 127.0.0.1 - - [01/Mar/2023 11:01:53] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 11:02:01,988 INFO: 127.0.0.1 - - [01/Mar/2023 11:02:01] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 11:02:02,294 INFO: Login success
+2023-03-01 11:02:02,294 INFO: 127.0.0.1 - - [01/Mar/2023 11:02:02] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 11:02:02,548 INFO: Data from DataBase requested
+2023-03-01 11:02:02,548 INFO: 127.0.0.1 - - [01/Mar/2023 11:02:02] "GET /corestack/employee HTTP/1.1" 200 -
+2023-03-01 15:14:58,414 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-01 15:14:58,414 INFO: [33mPress CTRL+C to quit[0m
+2023-03-01 15:14:58,422 INFO:  * Restarting with stat
+2023-03-01 15:14:58,999 WARNING:  * Debugger is active!
+2023-03-01 15:14:59,008 INFO:  * Debugger PIN: 545-254-937
