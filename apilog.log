@@ -412,3 +412,10 @@ AttributeError: 'function' object has no attribute 'get'
 2023-03-01 15:14:58,422 INFO:  * Restarting with stat
 2023-03-01 15:14:58,999 WARNING:  * Debugger is active!
 2023-03-01 15:14:59,008 INFO:  * Debugger PIN: 545-254-937
+2023-03-01 15:15:04,091 INFO: 127.0.0.1 - - [01/Mar/2023 15:15:04] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 15:15:04,357 INFO: 127.0.0.1 - - [01/Mar/2023 15:15:04] "[31m[1mPOST /corestack/login HTTP/1.1[0m" 400 -
+2023-03-01 15:15:13,513 INFO: 127.0.0.1 - - [01/Mar/2023 15:15:13] "OPTIONS /corestack/login HTTP/1.1" 200 -
+2023-03-01 15:15:13,829 INFO: Login success
+2023-03-01 15:15:13,829 INFO: 127.0.0.1 - - [01/Mar/2023 15:15:13] "POST /corestack/login HTTP/1.1" 200 -
+2023-03-01 15:15:14,103 INFO: Data from DataBase requested
+2023-03-01 15:15:14,103 INFO: 127.0.0.1 - - [01/Mar/2023 15:15:14] "GET /corestack/employee HTTP/1.1" 200 -
